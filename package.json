@@ -1,7 +1,7 @@
 {
-  "name": "zubeid-youtube-mcp-server",
-  "version": "1.0.2",
-  "description": "YouTube MCP Server Implementation",
+  "name": "@cognibl/youtube-mcp-server",
+  "version": "1.0.2-cognibl.1",
+  "description": "Fork of zubeid-youtube-mcp-server with per-request authorization (upstream PR #33). Use upstream once it merges.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {
@@ -43,10 +43,13 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZubeidHendricks/youtube-mcp-server.git"
+    "url": "git+https://github.com/shekharp77/youtube-mcp-server.git"
   },
   "bugs": {
-    "url": "https://github.com/ZubeidHendricks/youtube-mcp-server/issues"
+    "url": "https://github.com/shekharp77/youtube-mcp-server/issues"
   },
-  "homepage": "https://github.com/ZubeidHendricks/youtube-mcp-server#readme"
+  "homepage": "https://github.com/shekharp77/youtube-mcp-server#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
